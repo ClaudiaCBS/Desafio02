@@ -43,75 +43,80 @@ nav ul a{
     color: aliceblue;
 }
 
+.container {
+display: flex;
+margin-left: 15%;
+margin-bottom: 10px;
+margin-top: 10px
+}
+.Titulo1{
+    padding-left: 15px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    border-radius: 7px;
+    width: 660px;
+    background-color: #fff;
 
-.Titulo1 {
-    background-color:white ;
-    width: 640px;
-    height: 600px;
-    margin: 10px;
-    padding: 15px;
+}
+.Titulo1 p{
+    width: 650px
+}
+
+.Titulo1 h3{
+    color: rgb(245, 210, 94)
+}
+
+.Titulo2 {
     margin-left: 15%;
-    display: block;
-    border-radius: 10px;
 }
+.modal {
 
-.Titulo1 h3 {
-    color: rgba(255, 208, 0, 0.945);
-}
-
-
-
-#Titulo2 #Postagens {
-    margin-top: -67.7%;
-    margin-left: 55%;
-    border-radius: 10px;
-    
-
-}
-
-#Titulo2 #Categorias {
-    margin-left: 55%;
-    margin-top: -0%;
-    background-color: white;
-    width: 200px;
-    height: 150px;
-    padding: 5px 16px 10px 15px;
-    border-radius: 10px;
+    width: 250px;
+    margin-left: 10px;
 }
 
 #Postagens {
-    background-color:white ;
-    width: 200px;
-    height: 420px;
-    margin: 10px;
-    padding: 15px;
+    background-color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 7px;
+    margin-bottom: 6px
 }
 
 #Postagens h4 {
-    background-color:rgb(182, 181, 181);
+    background-color: gray;
+    padding: 4px
+}
+
+#Categorias {
+    background-color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    border-radius: 7px;
+    padding-bottom: 4px
 }
 
 #Categorias h4 {
-    background-color: rgb(182, 181, 181);
-
+    background-color: gray;
+    padding: 4px
 }
 
 #Categorias ul {
-    color: rgba(255, 208, 0, 0.945);
+    color: rgb(245, 210, 94);
     list-style: none;
-    margin-left: -15%;
+    margin-left: -30px
 }
 
 footer {
+    margin-top: 50px;
+    margin-left: 15%;
+    width: 950px;
     text-align: center;
-    margin-top: 35%;
-    margin-left: 14%;
-    background-color: grey;
-    margin-right: 40%;
-    padding: 10px 12px 10px 8px;
-    border-radius: 5px;
+    background-color: rgb(173, 170, 170);
+    border-radius: 7px;
+    padding: 10px 0px
+   
 }
-footer b {
-    text-align: center
-}
-
